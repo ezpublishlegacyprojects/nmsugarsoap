@@ -1,0 +1,9 @@
+Tested on eZ Publish 4.0.0
+
+1. Checkout extension to ezpinstall/extension
+
+2. Activate extension
+
+3. Copy settings/sugar_default.ini.append.php and fill it with your details. Rename the new file to settings/sugar.ini.append.php
+
+4. Create a new class, or modify an existing class, adding an attribute based upon the datatype "Sugar contacts".
